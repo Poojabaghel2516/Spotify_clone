@@ -1,0 +1,120 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: rgb(197, 158, 233);
+}
+
+nav ul {
+    display: flex;
+    list-style-type: none;
+    align-items: center;
+    height: 60px;
+    background-color: black;
+    color: white;
+}
+
+nav ul li {
+    padding: 0 12px;
+}
+
+.brand img {
+    width: 44px;
+    padding: 0 12px;
+
+}
+
+.brand {
+    display: flex;
+    align-items: center;
+    font-weight: bolder;
+    font-size: 1.3rem;
+}
+
+.contanir {
+    min-height: 72vh;
+    background-color: black;
+    color: white;
+    font-style: italic;
+    display: flex;
+    margin: 10px auto;
+    width: 70%;
+    border-radius: 15px;
+    padding: 30px;
+    background-size: 100%;
+    background-image: url(front-view-young-attractive-female-white-t-shirt-colored-coat-listening-music-pink-desk-model-female-color-female-young.jpg);
+}
+
+.bottom {
+    position: sticky;
+    height: 120px;
+    background-color: black;
+    bottom: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+   color: white;
+    border-radius:  45px;
+}
+
+#myProgressBar {
+    width: 80vw;
+    cursor: pointer;
+
+}
+.icons{
+    margin-top: 12px;
+    
+    
+}
+.icons i{
+    cursor: pointer;
+}
+
+.songItem{
+    height: 45px;
+    display: flex;
+    background-color: white;
+    
+    color: black;
+    margin: 12px 0;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 34px;
+
+}
+.songItem img{
+    width: 43px;
+    margin: 0 23px;
+    border-radius: 34px;
+
+}
+.timestamp{
+    margin: 0 23px;
+    
+    
+    
+}
+.timestamp i{
+    cursor: pointer;
+}
+.songinfo{
+    
+    font-size: 1.8rem;
+    
+}
+.songinfo img{
+     
+    opacity: 0;
+    transition: opacity 0.8s ease-in;
+}
+@media only screen and (max-width: 1100px){
+
+body{
+  background-color: rgb(155, 22, 148);;
+}
+    
+}
